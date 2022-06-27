@@ -1,5 +1,4 @@
 /*
-
 Input format :
 The first line contains an Integer 't' which denotes the number of test cases or queries to be run. Then the test cases follow.
 First line of each test case or query contains an integer 'N' representing the size of the first array/list.
@@ -49,8 +48,7 @@ void intersection(int *input1, int *input2, int size1, int size2)
         
     }
 }
-
-
+/*
 int main()
 {
 	int t;
@@ -86,3 +84,4 @@ int main()
 
 	return 0;
 }
+*/
