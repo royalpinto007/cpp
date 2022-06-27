@@ -15,7 +15,7 @@ int duplicateNumber(int *arr, int size)
         }
     }
 }
-
+/*
 int main()
 {
 
@@ -38,3 +38,4 @@ int main()
 
     return 0;
 }
+*/
