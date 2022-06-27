@@ -25,7 +25,7 @@ void arrange(int *arr, int n)
         }
     }
 }
-
+/*
 int main()
 {
     int t;
@@ -45,3 +45,4 @@ int main()
         delete[] arr;
     }
 }
+*/
