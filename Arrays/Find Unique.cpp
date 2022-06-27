@@ -45,7 +45,7 @@ int findUnique(int *arr, int size)
 
     return unique;
 }
-
+/*
 int main()
 {
 
@@ -68,3 +68,4 @@ int main()
 
     return 0;
 }
+*/
