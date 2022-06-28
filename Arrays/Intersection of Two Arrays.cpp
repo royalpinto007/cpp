@@ -26,7 +26,6 @@ Output-
 10
 */
 
-
 #include <iostream>
 #include <algorithm>
 #include <climits>
@@ -48,6 +47,7 @@ void intersection(int *input1, int *input2, int size1, int size2)
         
     }
 }
+
 /*
 int main()
 {
