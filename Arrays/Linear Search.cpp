@@ -5,7 +5,6 @@ Input-
 3)Second line contains 'N' single space separated integers representing the elements in the array/list.
 4)Third line contains the value of X(integer to be searched in the given array/list.
 
-
 Output-
 Print the index at which X is present or -1, otherwise.
 
@@ -25,6 +24,7 @@ int linearSearch(int *arr, int n, int x)
     return -1;
 }
 
+/*
 int main()
 {
 	int t;
@@ -44,3 +44,4 @@ int main()
 	}
 	return 0;
 }
+*/
