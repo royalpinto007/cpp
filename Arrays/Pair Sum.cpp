@@ -40,6 +40,7 @@ int pairSum(int *input, int size, int x)
     return numPairs;
 }
 
+/*
 int main()
 {
 	int t;
@@ -67,3 +68,4 @@ int main()
 	
 	return 0;
 }
+*/
