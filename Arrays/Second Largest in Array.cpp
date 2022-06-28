@@ -39,6 +39,7 @@ int findSecondLargest(int *input, int n)
     return x;
 }
 
+/*
 int main()
 {
     int t;
@@ -62,3 +63,4 @@ int main()
 
     return 0;
 }
+*/
