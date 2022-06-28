@@ -13,7 +13,6 @@ Output Format-
 For each test case, print the sorted array/list elements in a row separated by a single space.
 Output for every test case will be printed in a separate line.
 
-
 Input-
 1
 7
@@ -41,6 +40,7 @@ void sortZeroesAndOne(int *input, int size)
     }
 }
 
+/*
 int main()
 {
 
@@ -72,3 +72,4 @@ int main()
 
     return 0;
 }
+*/
