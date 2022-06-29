@@ -27,6 +27,7 @@ abdefgbabfba
 Sample Output:
 b
 */
+
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -54,6 +55,7 @@ char highestOccurringChar(char input[])
     return res;
 }
 
+/*
 int main()
 {
     int size = 1e6;
@@ -61,3 +63,4 @@ int main()
     cin >> str;
     cout << highestOccurringChar(str);
 }
+*/
