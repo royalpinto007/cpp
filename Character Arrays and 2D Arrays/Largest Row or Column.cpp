@@ -34,6 +34,7 @@ void findLargest(int **input, int nRows, int mCols)
     flag ? cout << "column " << index << " " << maxSum << endl : cout << "row " << index << " " << maxSum << endl;
 }
 
+/*
 int main()
 {
     int t;
@@ -57,3 +58,4 @@ int main()
         cout << endl;
     }
 }
+*/
