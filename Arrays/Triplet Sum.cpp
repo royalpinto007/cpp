@@ -11,7 +11,6 @@ For each test case, print the total number of triplets present in the array/list
 Output for every test case will be printed in a separate line.
 */
 
-
 #include <iostream>
 using namespace std;
 
@@ -35,6 +34,7 @@ int tripletSum(int *input, int size, int x)
     return triplet;
 }
 
+/*
 int main()
 {
     int t;
@@ -61,3 +61,4 @@ int main()
 
     return 0;
 }
+*/
