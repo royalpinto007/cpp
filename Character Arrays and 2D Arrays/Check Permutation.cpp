@@ -65,6 +65,7 @@ bool isPermutation(char input1[], char input2[])
     }
 }
 
+/*
 int main()
 {
     int size = 1e6;
@@ -73,3 +74,4 @@ int main()
     cin >> str1 >> str2;
     cout << (isPermutation(str1, str2) ? "true" : "false");
 }
+*/
