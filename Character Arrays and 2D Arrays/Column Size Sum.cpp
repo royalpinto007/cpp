@@ -6,8 +6,8 @@ First and only line of input contains M and N, followed by M * N space separated
 
 Output Format :
 Sum of every ith column elements (separated by space)
-
 */
+
 #include <iostream>
 using namespace std;
 
