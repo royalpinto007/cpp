@@ -24,6 +24,7 @@ aaabbccdsa
 Sample Output:
 a3b2c2dsa
 */
+
 #include <iostream>
 #include <cstring>
 #include <string>
@@ -58,6 +59,7 @@ string getCompressedString(string &input)
     return ans;
 }
 
+/*
 int main()
 {
     int size = 1e6;
@@ -66,3 +68,4 @@ int main()
     str = getCompressedString(str);
     cout << str << endl;
 }
+*/
