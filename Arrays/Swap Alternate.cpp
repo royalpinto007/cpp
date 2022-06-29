@@ -24,7 +24,7 @@ void swapAlternate(int *arr, int size)
         arr[i + 1] = temp;
     }
 }
-
+/*
 int main()
 {
     int t;
@@ -47,3 +47,4 @@ int main()
         delete[] arr;
     }
 }
+*/
