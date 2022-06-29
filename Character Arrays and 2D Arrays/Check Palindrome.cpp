@@ -10,6 +10,7 @@ Example-
 Input- abcdcba
 Output- true
 */
+
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -41,9 +42,11 @@ bool checkPalindrome(char str[])
     return true;
 }
 
+/*
 int main() {
     int size = 1e6;
     char str[size];
     cin >> str;
     cout << (checkPalindrome(str) ? "true" : "false");
 }
+*/
