@@ -3,7 +3,7 @@
 using namespace std;
 
 // Vectors
-void Explainvector()
+void ExplainVector()
 {
     vector<int> v;     //{}
     v.push_back(1);    //{1}
