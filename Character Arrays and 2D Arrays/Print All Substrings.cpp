@@ -18,6 +18,7 @@ void printSubstrings(char input[])
     }
 }
 
+/*
 int main()
 {
     int size = 1e6;
@@ -25,3 +26,4 @@ int main()
     cin >> str;
     printSubstrings(str);
 }
+*/
