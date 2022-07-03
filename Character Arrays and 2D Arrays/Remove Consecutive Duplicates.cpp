@@ -1,4 +1,5 @@
-/* For a given string(str), remove all the consecutive duplicate characters.
+/* 
+For a given string(str), remove all the consecutive duplicate characters.
 
 Example:
 Input String: "aaaa"
@@ -17,6 +18,7 @@ The only line of output prints the updated string.
 Note:
 You are not required to print anything. It has already been taken care of.
 */
+
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -45,6 +47,7 @@ void removeConsecutiveDuplicates(char a[])
     }
 }
 
+/*
 int main()
 {
     int size = 1e6;
@@ -53,3 +56,4 @@ int main()
     removeConsecutiveDuplicates(str);
     cout << str;
 }
+*/
