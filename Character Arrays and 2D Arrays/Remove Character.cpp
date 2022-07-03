@@ -1,5 +1,4 @@
 /*
-
 For a given a string(str) and a character X, write a function to remove all the occurrences of X from the given string.
 The input string will remain unchanged if the given character(X) doesn't exist in the input string.
 
@@ -19,7 +18,6 @@ a
 
 Sample Output 1:
 bccb
-
 */
 
 #include <iostream>
@@ -40,7 +38,7 @@ void removeAllOccurrencesOfChar(char input[], char c)
         }
     }
 }
-
+/*
 int main()
 {
     int size = 1e6;
@@ -51,3 +49,4 @@ int main()
     removeAllOccurrencesOfChar(str, c);
     cout << str;
 }
+*/
