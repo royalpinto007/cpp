@@ -11,6 +11,7 @@ Output Format :
 Updated string
 
 */
+
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -37,6 +38,7 @@ void replaceCharacter(char input[], char c1, char c2)
     }
 }
 
+/*
 int main()
 {
     char input[1000000];
@@ -46,3 +48,4 @@ int main()
     replaceCharacter(input, c1, c2);
     cout << input << endl;
 }
+*/
