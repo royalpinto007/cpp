@@ -18,6 +18,7 @@ Welcome to Coding Ninjas
 Sample Output 1:
 emocleW ot gnidoC sajniN
 */
+
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -46,6 +47,7 @@ void reverseEachWord(char input[])
     }
 }
 
+/*
 int main() {
     int size = 1e6;
     char str[size];
@@ -53,3 +55,4 @@ int main() {
     reverseEachWord(str);
     cout << str;
 }
+*/
