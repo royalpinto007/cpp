@@ -1,5 +1,4 @@
 /*
-
 Given an input string S that contains multiple words, you need to remove all the spaces present in the input string.
 There can be multiple spaces present after any word.
 Input Format :
@@ -26,6 +25,7 @@ void trimSpaces(char input[])
     }
     input[j] = '\0';
 }
+
 /*
 int count=0;
 {
@@ -43,6 +43,8 @@ while(j<k){
     }
 }
 */
+
+/*
 int main()
 {
     char input[1000000];
@@ -50,3 +52,4 @@ int main()
     trimSpaces(input);
     cout << input << endl;
 }
+*/
