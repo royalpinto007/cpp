@@ -13,6 +13,7 @@ Each of the ith row constitutes 'M' column values separated by a single space.
 Output format :
 For each test case, print the elements of the two-dimensional array/list in the sine wave order in a single line, separated by a single space.
 Output for every test case will be printed in a seperate line.
+
 */
 #include <iostream>
 using namespace std;
@@ -29,6 +30,7 @@ void wavePrint(int **input, int nRows, int mCols)
         }
     }
 }
+
 /*
 void wavePrint(int **input, int nRows, int mCols)
 {
@@ -53,7 +55,10 @@ void wavePrint(int **input, int nRows, int mCols)
             }
         }
     }
-}*/
+}
+*/
+
+/*
 int main()
 {
     int t;
@@ -75,3 +80,4 @@ int main()
         cout << endl;
     }
 }
+*/
