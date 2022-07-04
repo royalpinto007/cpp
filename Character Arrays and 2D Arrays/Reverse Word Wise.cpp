@@ -1,23 +1,6 @@
 #include <iostream>
 using namespace std;
-/*
-void reverse(char input[], int start, int end) {
-    while(start < end) { s
-    td::swap(input[start++], input[end--]);
-    } }
 
-    void reverseStringWordWise(char input[]) {
-        int previousSpaceIndex = -1; int i = 0;
-        for(; input[i] != '\0'; i++) {
-            if(input[i] == ' ') {
-                reverse(input, previousSpaceIndex + 1, i - 1);
-                previousSpaceIndex = i;
-                } }
-                reverse(input, previousSpaceIndex + 1, i - 1);
-                reverse(input, 0, i - 1);
-                }
-
-*/
 void reverseStringWordWise(char input[])
 {
 
@@ -60,6 +43,26 @@ void reverseStringWordWise(char input[])
     }
 }
 
+/*
+void reverse(char input[], int start, int end) {
+    while(start < end) { s
+    td::swap(input[start++], input[end--]);
+    } }
+
+    void reverseStringWordWise(char input[]) {
+        int previousSpaceIndex = -1; int i = 0;
+        for(; input[i] != '\0'; i++) {
+            if(input[i] == ' ') {
+                reverse(input, previousSpaceIndex + 1, i - 1);
+                previousSpaceIndex = i;
+                } }
+                reverse(input, previousSpaceIndex + 1, i - 1);
+                reverse(input, 0, i - 1);
+                }
+
+*/
+
+/*
 int main()
 {
     char input[1000];
@@ -67,3 +70,4 @@ int main()
     reverseStringWordWise(input);
     cout << input << endl;
 }
+*/
