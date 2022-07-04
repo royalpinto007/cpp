@@ -1,5 +1,4 @@
 /*
-
 For a given two-dimensional integer array/list of size (N x M), print it in a spiral form. 
 That is, you need to print in the order followed for every iteration:
 a. First row(left to right)
@@ -62,6 +61,7 @@ void spiralPrint(int **input, int nRows, int mCols)
     }
 }
 
+/*
 int main()
 {
     int t;
@@ -92,3 +92,4 @@ int main()
         cout << endl;
     }
 }
+*/
