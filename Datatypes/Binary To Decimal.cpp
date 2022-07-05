@@ -1,5 +1,4 @@
 /* 
-
 Given a binary number as an integer N, convert it into decimal and print.
 
 Input-
@@ -7,7 +6,6 @@ Input-
 
 Output-
 12
-
 */
 
 #include<iostream>
