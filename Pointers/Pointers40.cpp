@@ -18,6 +18,6 @@ int main()
     c = 4;
     b = &c;
     a = &b;
-    cout << f(c, b, a);
+    cout << f(c, b, a);                                     // 19
     return 0;
 }
