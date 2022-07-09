@@ -10,5 +10,5 @@ int main()
 {
     int a = 10;
     changeSign(&a);
-    cout << a << endl;
+    cout << a << endl;                       // -10
 }
