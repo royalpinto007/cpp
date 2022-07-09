@@ -9,5 +9,5 @@ int main()
     int b = (**q)++;
     int *r = *q;
     (*r)++;
-    cout << a << " " << b << endl;
+    cout << a << " " << b << endl;                      // 102 100
 }
