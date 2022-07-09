@@ -7,5 +7,5 @@ int main()
     int *ptr = &a;
     int *q = ptr;
     (*q)++;
-    cout << a << endl;    // 51
+    cout << a << endl;                      // 51
 }
