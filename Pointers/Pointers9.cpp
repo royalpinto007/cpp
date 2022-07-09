@@ -8,5 +8,5 @@ int main()
     float *ptr = &f;
     (*ptr)++;
     *ptr = p;
-    cout << *ptr <<" "<< f <<" "<< p;
+    cout << *ptr <<" "<< f <<" "<< p;                       // 2.5 2.5 2.5
 }
