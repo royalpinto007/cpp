@@ -12,6 +12,7 @@ int main()
     cout << a << " " << b << endl;                  // 10 21
 }
 
-// p points to a. q points to p directly and a through p (double pointer). *q — value stored in p is changed to address of b instead of that of a. 
+// p points to a. q points to p directly and a through p (double pointer). 
+// *q — value stored in p is changed to address of b instead of that of a. 
 // (*p)++ — value that p points to, which now is of b, is incremented by 1 (b becomes 21). 
 // Value of a remains unchanged.
