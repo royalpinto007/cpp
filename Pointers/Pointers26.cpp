@@ -12,5 +12,17 @@ int main()
 {
     int a = 10;
     square(&a);
-    cout << a << endl;
+    cout << a << endl;                                  // 10
 }
+
+/*
+void square(int *p){
+    *p = (*p) * (*p);
+}
+
+int main(){
+ int a = 10;
+ square(&a);
+ cout << a << endl;                                     // 100
+}
+*/
