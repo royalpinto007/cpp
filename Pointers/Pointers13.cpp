@@ -5,5 +5,5 @@ int main()
 {
     int a[5];
     int *c;
-    cout << sizeof(a) << " " << sizeof(c);
+    cout << sizeof(a) << " " << sizeof(c);                  // 20 8
 }
