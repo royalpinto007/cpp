@@ -3,7 +3,7 @@ using namespace std;
 
 void func(int p)
 {
-    cout << p << " ";
+    cout << p << " ";                           // 10
 }
 
 int main()
@@ -11,5 +11,5 @@ int main()
     int i = 10;
     int &p = i;
     func(p++);
-    cout << i;
+    cout << i;                                  // 11
 }
