@@ -5,17 +5,19 @@ int main()
 {
     int i = 65;
     char c = i;
-    cout << c << endl;
+    cout << c << endl;                          // A
 
     int *p = &i;
-    char *pc = (char *)p;
+    char *pc = p;                               // wrong, can't be done (error)
+    char *pc = (char *)p;                       // explicit typecasting
 
-    cout << p << endl;
-    cout << pc << endl;
+    cout << p << endl;                          // Address
+    cout << pc << endl;                         // A
 
-    cout << *p << endl;
-    cout << *pc << endl;
-    cout << *(pc + 1) << endl;
-    cout << *(pc + 2) << endl;
-    cout << *(pc + 3) << endl;
+    cout << *p << endl;                         // 65                       
+    cout << *pc << endl;                        // A
+    
+    cout << *(pc + 1) << endl;                  // Garbage or  NULL
+    cout << *(pc + 2) << endl;                  // Garbage or  NULL
+    cout << *(pc + 3) << endl;                  // Garbage or  NULL
 }
