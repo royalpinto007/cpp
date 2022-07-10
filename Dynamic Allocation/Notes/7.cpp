@@ -6,7 +6,7 @@ int main()
 {
     int m, n;
     cin >> m >> n;
-    int **p = new int *[m];
+    int **p = new int *[m];                 // Syntax of 2D Arrays
   
     // to input
     for (int i = 0; i < m; i++)
