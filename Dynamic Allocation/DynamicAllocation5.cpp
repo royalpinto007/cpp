@@ -1,16 +1,17 @@
 #include <iostream>
 using namespace std;
 
-int x = 1;
+int x = 1;                      // Global Variable
 
 void print()
 {
     int x = 2;
     {
         int x = 3;
-        cout << x << endl;
+        cout << x << endl;      // 3
     }
 }
+
 int main()
 {
     print();
