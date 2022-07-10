@@ -23,3 +23,14 @@ int main()
     }
 */
 }
+
+
+// On deleting a dynamic memory, if the pointer value is not modified, then the pointer points to?
+    
+// This problem has only one correct answer
+//  a) NULL
+//  b) Other dynamically allocated memory
+//  c) The same deleted memory location 
+//  d) It points back to location it was initialized with
+
+// Answer- (c)
