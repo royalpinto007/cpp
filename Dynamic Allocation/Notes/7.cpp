@@ -25,3 +25,7 @@ int main()
     }
     delete[] p;
 }
+
+
+// Can we create Jagged Arrays in C++ ?
+// Yes
