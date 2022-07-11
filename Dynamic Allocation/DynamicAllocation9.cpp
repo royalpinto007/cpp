@@ -7,3 +7,5 @@ int main()
     cout << ++p;               // error
     return 0;
 }
+
+// Values of constant variables cannot be altered
