@@ -9,6 +9,8 @@ int main()
     int const *q = &p;
 }
 
-// p++;
-// q++;
-// (*q)++;                  //answer
+// a) p++;
+// b) q++;
+// c) (*q)++;                  
+
+// Answer- (c)
