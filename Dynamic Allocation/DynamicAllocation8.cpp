@@ -24,3 +24,14 @@ int main()
 // Answer- c
 // Inline functions are used to reduce the function call overhead. 
 // Inline function is a function that is expanded in line when it is called.
+
+
+// Which of the following statement is correct?
+    
+//     This problem has only one correct answer
+// Only one parameter of a function can be a default parameter.
+// Minimum one parameter of a function must be a default parameter.
+// All the parameters of a function can be default parameters. 
+// No parameter of a function can be default.
+
+// Answer- (c)
