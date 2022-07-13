@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
 
-int main(){
-
+int main()
+{
     int var1=5;
     int var2=6;
 
