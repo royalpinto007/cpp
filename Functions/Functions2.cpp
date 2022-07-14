@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
 void demo(int a, int b){
     cout <<a<<" "<<b;
 }
