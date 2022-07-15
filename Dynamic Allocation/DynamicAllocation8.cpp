@@ -12,26 +12,13 @@ int main()
     return 0;
 }
 
-
-// Inline functions are useful when ______
-
-// This problem has only one correct answer
-// a) Function is large with many nested loops
-// b) Function has many static variables
-// c) Function is small and we want to avoid function call overhead. 
-// d) None of the above
-
-// Answer- c
-// Inline functions are used to reduce the function call overhead. 
-// Inline function is a function that is expanded in line when it is called.
-
+// Default parameters must be added last in C++ functions (we can't leave the last argument declaration blank like int z in this case)
 
 // Which of the following statement is correct?
     
-//     This problem has only one correct answer
-// Only one parameter of a function can be a default parameter.
-// Minimum one parameter of a function must be a default parameter.
-// All the parameters of a function can be default parameters. 
-// No parameter of a function can be default.
+//    (a) Only one parameter of a function can be a default parameter.
+//    (b) Minimum one parameter of a function must be a default parameter.
+//    (c) All the parameters of a function can be default parameters. 
+//    (d) No parameter of a function can be default.
 
 // Answer- (c)
