@@ -13,7 +13,7 @@ void f(const int *p)
 
 int main()
 {
-    int const i = 10;
+    int const i = 10;       // always initialise it
 
     int const *p = &i;
 
