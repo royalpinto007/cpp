@@ -8,4 +8,4 @@ int main()
     return 0;
 }
 
-// Values of constant variables cannot be altered
+// Values of constant variables cannot be altered/changed.
