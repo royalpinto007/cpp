@@ -35,7 +35,7 @@ int firstIndex(int input[], int size, int x)
     else
     {
         int i = firstIndex(input + 1, size - 1, x);
-        return i == -1 ? i : i + 1;                     // very important, that I usually do wrong!!
+        return i == -1 ? i : i + 1;                     // very important, something that I usually do wrong!!
     }
 }
 
