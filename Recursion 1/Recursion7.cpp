@@ -12,6 +12,11 @@ Sample Output 1 :
 26
 */
 
+/*  Time Complexity : O(n)
+    Space Complexity : O(n)
+    where n is size of input array
+*/
+
 int sum(int input[], int n)
 {
     if (n == 0)
