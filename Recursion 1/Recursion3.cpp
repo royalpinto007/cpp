@@ -1,4 +1,4 @@
-// Power of a number
+// Number of Digits
 
 /*
 Given the code to find out and return the number of digits present in a number recursively.
