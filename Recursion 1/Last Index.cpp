@@ -38,6 +38,7 @@
 //     }
 // }
 
+// approach to solve it from the front
 int lastIndex(int input[], int size, int x)
 {
     if (size == 0)
@@ -45,6 +46,7 @@ int lastIndex(int input[], int size, int x)
         return -1;
     }
     int smallAns = lastIndex(input + 1, size - 1, x);
+    // understand this properly
     if (smallAns != -1)
     {
         return smallAns + 1;
