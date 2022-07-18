@@ -41,17 +41,20 @@
 // approach to solve it from the front
 int lastIndex(int input[], int size, int x)
 {
+    // base case
     if (size == 0)
     {
         return -1;
     }
-    int smallAns = lastIndex(input + 1, size - 1, x);
-    // understand this properly
+    
+    int smallAns = lastIndex(input + 1, size - 1, x);       // recursive call
+    
+    // small work
     if (smallAns != -1)
     {
         return smallAns + 1;
     }
-    if (input[0] == x)
+    if (input[0] == x)                                      // sab conditions dekhenge aur check krenege ki 0th index m present h ya nahi**
     {
         return 0;
     }
