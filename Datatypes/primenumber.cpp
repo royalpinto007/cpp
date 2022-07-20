@@ -1,30 +1,31 @@
 #include<iostream>
 using namespace std;
 
-int main(){
-
+int main()
+{
     int n;
-    cin>>n;
+    cin >> n;
 
-    int d=2;
-    bool divided=false;
+    int d = 2;
+    bool divided = false;
 
-    while (d<n){
-        if(n%d==0){
-            
-            divided=true;
+    while (d < n)
+    {
+        if (n % d == 0)
+        {
+
+            divided = true;
             break;
         }
         d++;
     }
-    
-    if(divided){
-        cout<<"Not Prime"<<endl;
-    } 
-    else{ 
-        cout<<"Prime"<<endl;
-    
-    }
-    
 
+    if (divided)
+    {
+        cout << "Not Prime" << endl;
+    }
+    else
+    {
+        cout << "Prime" << endl;
+    }
 }
