@@ -50,6 +50,7 @@ void towerOfHanoi(int n, char source, char auxiliary, char destination)
     towerOfHanoi(n - 1,  auxiliary, source, destination);
 }
 
+/*
 #include <iostream>
 using namespace std;
 
@@ -59,3 +60,4 @@ int main()
     cin >> n;
     towerOfHanoi(n, 'a', 'b', 'c');
 }
+*/
