@@ -20,7 +20,7 @@ void printTable(int start, int end, int step)
     }
 }
 
-
+/*
 int main()
 {
     int start, end, step;
@@ -28,3 +28,4 @@ int main()
 
     printTable(start, end, step);
 }
+*/
