@@ -28,7 +28,7 @@ int main()
 
     cout << s.size() << endl;
     cout << s.substr(3) << endl;
-    cout << s.substr(3, 3) << endl;
+    cout << s.substr(3, 3) << endl;         // substr (start, length)
 
     cout << s.find("def") << endl;
 }
