@@ -40,6 +40,46 @@ void sortZeroesAndOne(int *input, int size)
     }
 }
 
+/* Alternate Solution
+
+void sortZeroesAndOne(int *input, int size) { 
+    int nextZero = 0; 
+    
+    for (int i = 0; i < size; i++) { 
+        
+        if (input[i] == 0) { 
+            int temp = input[nextZero]; 
+            input[nextZero] = input[i]; 
+            input[i] = temp; 
+            nextZero++;
+        } 
+    } 
+}
+
+
+void sortZeroesAndOne(int *arr, int n)
+{
+  int count = 0;
+    for(int i = 0;i < n ;i ++)
+    {
+        if(arr[i] == 0)
+        {
+            count++;
+        }
+    
+    }
+    for(int i = 0;i < count;i++)
+    {
+        arr[i] = 0;
+    }
+    for(int j = count;j < n;j++)
+    {
+        arr[j] = 1;
+    }
+    
+} 
+*/
+
 /*
 int main()
 {
