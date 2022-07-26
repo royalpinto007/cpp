@@ -1,10 +1,13 @@
 #include<iostream>
 using namespace std;
 
-int main(){
+int main()
+{
     int i=1;
-    while(i<10){
-        if(i==7){
+    while(i<10)
+    {
+        if(i==7)
+        {
             i++;
             continue;
         }
@@ -12,8 +15,10 @@ int main(){
         i++;
     }
     cout<<endl;
-    for(int j=1; j<10; j++){
-        if(j==7){
+    for(int j=1; j<10; j++)
+    {
+        if(j==7)
+        {
             break;
         }
         cout<<j<<" ";
