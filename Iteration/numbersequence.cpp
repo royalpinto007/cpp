@@ -7,7 +7,6 @@ in such a way that the first part is strictly decreasing while the second is str
 Note : We say that x is strictly larger than y when x > y.
 So, a strictly increasing sequence can be 1 4 8. However, 1 4 4 is NOT a strictly increasing sequence.
 
-
 That is, in the sequence if numbers are decreasing, they can start increasing at one point.
 And once the sequence of numbers starts increasing, they cannot decrease at any point further.
 Sequence made up of only increasing numbers or only decreasing numbers is a valid sequence.
@@ -18,6 +17,7 @@ You just need to print true/false. No need to split the sequence.
 
 #include <iostream>
 using namespace std;
+
 int main()
 {
     int n;
