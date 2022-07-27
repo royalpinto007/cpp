@@ -5,30 +5,30 @@ If only 0 or 1 element is given, the second largest should be INT_MIN ( - 2^31 )
 */
 
 #include<iostream>
-using namespace std;
 #include <climits>
+using namespace std;
 
-
-int main(){
+int main()
+{
     int n;
     cin>>n;
     int max=INT_MIN,secondMax=INT_MIN;
     int num;
     int count=1;
     
-    while(count<=n){
+    while(count<=n)
+    {
         cin>>num;
-        if (num>max){
+        if (num>max)
+        {
             secondMax=max;
             max=num;
         }
-        else if(num>secondMax&&num!=max){
+        else if(num>secondMax&&num!=max)
+        {
             secondMax=num;
         }
-        count++;
-        
-        
+        count++;  
     }
-    cout<<secondMax<<endl;
-    
+    cout<<secondMax<<endl; 
 }
