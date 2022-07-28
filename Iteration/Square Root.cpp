@@ -10,10 +10,9 @@ using namespace std;
 
 int main()
 {
-    // Write your code here
     int n, ans = 0;
     cin >> n;
-
+    
     while (ans * ans <= n)
     {
         ans++;
