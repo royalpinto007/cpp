@@ -5,7 +5,6 @@ Input-
 10
 Output-
 5 11 14 17 23 26 29 35 38 41
-
 */
 
 #include <iostream>
