@@ -7,7 +7,7 @@ class Student
 	int rollNumber;
 	
 	private :
-	int age;
+	int age;		// will show error for age because it has been declared in private and is tried to accessed in the main function
 };
 
 int main() 
