@@ -17,7 +17,7 @@ int main()
 	Student s2;
 	Student s3, s4, s5;
 
-  // adding values, remember we must always initialise the objects of the class with some value
+ 	// adding values, remember we must always initialise the objects of the class with some value
 	s1.age = 24;
 	s1.rollNumber = 101;
 
