@@ -1,30 +1,30 @@
 /* 
-1
-23
-345
-4567
+    1
+    23
+    345
+    4567
 */
 
 #include<iostream>
 using namespace std;
 
-int main(){
+int main()
+{
     int n;
     cin>>n;
 
     int i=1;
-    while(i<=n){
-        
+    while(i<=n)
+    {        
         int j=i;
         int k=1;
-        while(k<=i){
+        while(k<=i)
+        {
             cout<<j;
             j++;
-            k++;
-            
+            k++;  
         }
     cout<<endl;
     i++;
     }
-
 }
