@@ -1,9 +1,11 @@
 #include<iostream>
 using namespace std;
 
-int main(){
+int main()
+{
     int a=10;
-    if(a>5){
+    if(a>5)
+    {
         int a=100;
     }
     cout<<a;                //no error because a is declared before
