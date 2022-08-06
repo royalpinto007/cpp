@@ -21,10 +21,12 @@ int main()
         {
             cout << j;
         }
+        
         for (j = 2; j < 2 * i; j++)
         {
             cout << "*";
         }
+        
         for (k = 1; k <= n - i + 1; k++)
         {
             cout << val;
