@@ -7,5 +7,5 @@ int main()
     {
         cout<<i<<" ";
     }
-  // cout<<i<<endl;                   i wasn't declared in this scope
+  // cout<<i<<endl;                    i wasn't declared in this scope, hence gives error
 }
