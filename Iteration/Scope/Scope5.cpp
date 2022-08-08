@@ -8,6 +8,6 @@ int main()
     {
         int a=1;
         cout<<a<<" ";
-        a--;                        // infinite 1's will be printed, because of this
+        a--;            // infinite 1's will be printed, because of this
     }
 }
