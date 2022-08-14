@@ -94,7 +94,8 @@
 // }
 
 // can be shortened as follows:
-// REP(i,1,n) {
+// REP(i,1,n) 
+// {
 // search(i);
 // }
 // Sometimes macros cause bugs that may be difficult to detect. For example,
