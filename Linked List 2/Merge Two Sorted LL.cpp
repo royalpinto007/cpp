@@ -51,6 +51,7 @@ Node* mergeTwoSortedLinkedLists(Node *head1, Node *head2)
 
 /*
 #include <iostream>
+using namespace std;
 
 class Node
 {
@@ -63,8 +64,6 @@ public:
 		this->next = NULL;
 	}
 };
-
-using namespace std;
 
 Node *takeinput()
 {
