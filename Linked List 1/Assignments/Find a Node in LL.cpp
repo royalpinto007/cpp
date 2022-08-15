@@ -32,6 +32,7 @@ int findNode(Node *head, int n)
 }
 
 #include <iostream>
+using namespace std;
 
 class Node
 {
@@ -44,9 +45,6 @@ public:
 		this->next = NULL;
 	}
 };
-
-using namespace std;
-#include "solution.h"
 
 Node *takeinput()
 {
