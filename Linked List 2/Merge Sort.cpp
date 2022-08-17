@@ -8,6 +8,7 @@ int length(Node *head)
     }
     return count;
 }
+
 Node* mergeTwoLLs(Node *head1, Node *head2) 
 {
     Node *p=NULL,*q=NULL;
