@@ -17,26 +17,33 @@ Node *reverseLinkedList(Node *head)
 using namespace std;
 
 
-class Node {
+class Node 
+{
    public:
     int data;
     Node *next;
-    Node(int data) {
+    Node(int data) 
+    {
         this->data = data;
         this->next = NULL;
     }
 };
 
-Node *takeinput() {
+Node *takeinput() 
+{
     int data;
     cin >> data;
     Node *head = NULL, *tail = NULL;
-    while (data != -1) {
+    while (data != -1) 
+    {
         Node *newnode = new Node(data);
-        if (head == NULL) {
+        if (head == NULL) 
+        {
             head = newnode;
             tail = newnode;
-        } else {
+        } 
+        else 
+        {
             tail->next = newnode;
             tail = newnode;
         }
@@ -45,10 +52,12 @@ Node *takeinput() {
     return head;
 }
 
-void print(Node *head) {
+void print(Node *head) 
+{
     Node *temp = head;
 
-    while (temp != NULL) {
+    while (temp != NULL) 
+    {
         cout << temp->data << " ";
         temp = temp->next;
     }
@@ -56,11 +65,13 @@ void print(Node *head) {
     cout << "\n";
 }
 
-int main() {
+int main() 
+{
     int t;
     cin >> t;
 
-    while (t--) {
+    while (t--) 
+    {
         Node *head = takeinput();
         head = reverseLinkedList(head);
         print(head);
@@ -68,3 +79,4 @@ int main() {
 
     return 0;
 }
+*/
