@@ -24,8 +24,8 @@ Node *evenAfterOdd(Node *head)
             otail->next=NULL;
         }
     }
-        otail->next=even->next;
-        return odd->next;
+   otail->next=even->next;
+   return odd->next;
 }
 
 /*
