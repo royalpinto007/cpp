@@ -1,3 +1,28 @@
+Node *kReverse(Node *head, int k) 
+{ 
+    if (k == 0 || k == 1)
+    { 
+        return head; 
+    } 
+    Node* current = head; 
+    Node* fwd = NULL; 
+    Node* prev = NULL; 
+    int count = 0; 
+    /* Reverse first k nodes of linked list */ 
+    while (count < k && current != NULL) 
+    { 
+	 fwd = current->next; 
+    	 current->next = prev; 
+    	 prev = current; 
+     	current = fwd; count++; 
+    } 
+    if (fwd != NULL) 
+    { 
+        head->next = kReverse(fwd, k); 
+    } 
+    return prev; 
+}
+
 /*
 Node* kReverse(Node*head,int k)
 {
@@ -46,29 +71,9 @@ Node *kReverse(Node *head, int k) {
 
 */
 
-Node *kReverse(Node *head, int k) { 
-    if (k == 0 || k == 1) { 
-        return head; 
-    } 
-    Node* current = head; 
-    Node* fwd = NULL; 
-    Node* prev = NULL; 
-    int count = 0; 
-    /* Reverse first k nodes of linked list */ 
-    while (count < k && current != NULL) 
-    { fwd = current->next; 
-     current->next = prev; 
-     prev = current; 
-     current = fwd; count++; 
-    } 
-    if (fwd != NULL) { 
-        head->next = kReverse(fwd, k); 
-    } 
-    return prev; 
-}
-
-
+/*
 #include <iostream>
+using namespace std;
 
 class Node
 {
@@ -82,8 +87,6 @@ public:
 	}
 };
 
-using namespace std;
-#include "solution.h"
 
 Node *takeinput()
 {
@@ -135,3 +138,4 @@ int main()
 	
 	return 0;
 }
+*/
