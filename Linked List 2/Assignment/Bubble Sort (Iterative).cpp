@@ -58,6 +58,8 @@ Node *bubbleSort(Node *head)
 
 /*
 #include <iostream>
+using namespace std;
+
 class Node
 {
 public:
@@ -70,8 +72,6 @@ public:
 	}
 };
 
-using namespace std;
-#include "solution.h"
 Node *takeinput()
 {
 	int data;
@@ -104,9 +104,11 @@ void print(Node *head)
 	}
 	cout << endl;
 }
+
 int main()
 {
 	Node *head = takeinput();
 	head = bubbleSort(head);
 	print(head);
 }
+*/
