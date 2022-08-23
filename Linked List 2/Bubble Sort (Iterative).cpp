@@ -15,7 +15,7 @@ Node *bubbleSort(Node *head)
     if(head==NULL || head->next==NULL)
         return head;
     
-   // node *curr=head;
+    //node *curr=head;
     //node *prev=NULL;
     //node *n=head->next;
     for(int i=0;i<len(head);i++){
@@ -27,7 +27,7 @@ Node *bubbleSort(Node *head)
         {
             if(curr->data > curr->next->data)  // if nodes are to be swapped
             {
-				if(prev)   //check if previous of the current node exist , u cant point on a garbage value
+		if(prev)   //check if previous of the current node exist , u cant point on a garbage value
                 {
                     // swapping using those 4 steps
                     Node* t=curr->next->next;
@@ -45,7 +45,7 @@ Node *bubbleSort(Node *head)
                 }
                 
             }
-            else    // else you simply move to next node
+          else    // else you simply move to next node
             {
                 prev=curr;
                 curr=curr->next;
@@ -53,5 +53,5 @@ Node *bubbleSort(Node *head)
         }
     }
   
-    return head;
+  return head;
 }
