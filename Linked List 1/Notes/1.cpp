@@ -5,7 +5,7 @@ class Node
 	Node *next;
 
 	Node(int data) 
-  {
+  	{
 		this -> data = data;
 		next = NULL;
 	}
