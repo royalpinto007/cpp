@@ -5,7 +5,6 @@
     1234
 */
 
-
 #include<iostream>
 using namespace std;
 
