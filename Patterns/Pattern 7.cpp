@@ -20,9 +20,10 @@ int main()
         int k=1;
         while (k<=(n/2)+1-i)
         {
-        cout<<" ";
-        k=k+1;
+            cout<<" ";
+            k=k+1;
         }
+        
         int j=1;
         while(j<=(2*i)-1)
         {
