@@ -1,6 +1,5 @@
+//  Holllow Rectangle
 /* 
-    Holllow Rectangle
-
     ****
     *  *
     *  *
