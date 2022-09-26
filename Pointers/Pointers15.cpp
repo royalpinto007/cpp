@@ -5,5 +5,5 @@ using namespace std;
 int main()
 {
     int a[6] = {1, 2, 3};
-    cout << a << " " << &a;                 // 200 200
+    cout << a << " " << &a;                 // 200 200   (a and &a or &a[0] are same) 
 }
