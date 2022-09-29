@@ -15,9 +15,9 @@ Sample Output 1 :
 */
 
 /*
-	To apply the method explained in the hint video, we have to add two more parameters in the function call. 
-  This can be done by calling a helper function from given function. 
-  The helper function can have three parameters: array, start index, end index.  
+To apply the method explained in the hint video, we have to add two more parameters in the function call. 
+This can be done by calling a helper function from given function. 
+The helper function can have three parameters: array, start index, end index.  
 	
 	Skeleton code to achieve this:
 	#include <iostream>
@@ -30,8 +30,7 @@ Sample Output 1 :
 	void quickSort(int input[], int size)
 	{
     		quickSort(input, 0, size - 1);
-	}
-		
+	}	
 */
 
 int Partition(int a[],int l,int u)
@@ -55,7 +54,6 @@ int Partition(int a[],int l,int u)
     return pIndex;
 }
 
-
 void qS(int a[],int l,int u)
 {
     if(l<u)
@@ -66,11 +64,9 @@ void qS(int a[],int l,int u)
     }
 }
 
-
 void quickSort(int input[], int size) 
 {
     qS(input,0,size-1);
-
 }
 
 /*
@@ -84,17 +80,14 @@ int main()
   
     int *input = new int[n];
     
-    for(int i = 0; i < n; i++) 
-    {
+    for(int i = 0; i < n; i++)    
         cin >> input[i];
-    }
-    
+   
     quickSort(input, n);
-    for(int i = 0; i < n; i++) 
-    {
+    
+    for(int i = 0; i < n; i++)  
         cout << input[i] << " ";
-    }
-  
+
     delete [] input;
 }
 */
