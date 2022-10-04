@@ -29,10 +29,8 @@ void help(string input,string out,vector<string> &str)
             return;
         char c2=96+d;
         help(input.substr(2),out+c2,str);
-    }
-    
+    }  
 }
-
 
 int getCodes(string input, string output[10000])
 {
