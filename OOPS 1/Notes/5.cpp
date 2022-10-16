@@ -1,85 +1,59 @@
-class Student 
-{
-	public :
-	int rollNumber;
+1) Which of the following statements are not true about destructor?
+1. It is invoked when object goes out of the scope
+2. Like constructor, it can also have parameters 
+3. It can be declared in private section
+4. It bears same name as that of the class and is preceded by tilde sign. 
 	
-	private :
-	int age;
+Answer- Only 2
+	
+2) Assume class DEMO. Which of the following statement(s) responsible to invoke copy constructor?
+1. DEMO D2(D1); //  Here D1 is an already created object of class  DEMO
+2. D2 = D1; // Here D1, D2 are already created objects of class DEMO
 
-	public :
-	void display() 
-  {
-		cout << age << " " << rollNumber << endl;
-	}
+Answer- Only 1
 
-	int getAge()
-  {
-		return age;
-	}
-
-	void setAge(int a, int password) 
-  {
-		if(password != 123) 
-    {
-			return;
-		}
-		if(a < 0) 
-    {
-			return;
-		}
-		age = a;
-	}
+3) Consider following piece of code:
+class Pair{
+  public :
+  int first;
+  int second;
 };
 
-#include <iostream>
+int main(){
+
+  Pair *p1 = new Pair;
+  Pair p2;
+}
+Which of the following statement is feasible ?
+1. p2 = p1;
+2. p2 = *p1;
+3. Both 1 and 2 are correct.
+4. None of the above
+
+Answer- 2
+	
+4) Consider following piece of code:
+#include<iostream>
 using namespace std;
 
-int main() 
-{
-	// Create objects statically
-	Student s1;
-	Student s2;
+class Pair{
+      public :
+      int first;
+      int second;
+};
 
-	Student s3, s4, s5;
+int main(){
 
-	//s1.age = 24;
-	s1.rollNumber = 101;
-
-	cout << "S1 age : " << s1.getAge() << endl;
-	cout << "S1 Roll number : " << s1.rollNumber << endl;
-
-	s1.display();
-	s2.display();
-
-	//s2.age = 30;
-  
-	// Create objects dynamicaaly
-	Student *s6 = new Student;
-	//(*s6).age = 23;
-	(*s6).rollNumber = 104;
-
-	(*s6).display();
-
-	cout << "S6 age : " << s6 -> getAge() << endl;
-
-	//s6 -> age = 23;
-	s6 -> rollNumber = 104;
-	s6 -> display();
+      Pair p1;
+      p1.first = 10;
+      p1.second = 20;
+      Pair p2;
+      p2 = p1;
+      cout << p2.first << " " << p2.second << endl;
 }
+What will be the output ?
+1. 10 20
+2. Error
+3. Garbage_value Garbage_value
 
-/*
-#include <iostream>
-using namespace std;
-
-int main() 
-{
-	Student s1;
-	Student *s2 = new Student;
-
-	s1.setAge(20);
-	s2 -> setAge(24);
-
-	s1.display();
-	s2 -> display();
-}
-*/
+Answer- 1
