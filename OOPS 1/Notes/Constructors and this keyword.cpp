@@ -9,7 +9,7 @@ class Student {
 	public :
 	// Default constructor
 	Student() {
-		cout << "Constreuctor called ! "<< endl;
+		cout << "Constructor called ! "<< endl;
 	}
 	// Default constructor is deleted when we create our own constructor (but works in the similar manner)
 
