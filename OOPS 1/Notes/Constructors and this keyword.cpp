@@ -11,6 +11,7 @@ class Student {
 	Student() {
 		cout << "Constreuctor called ! "<< endl;
 	}
+	// Default constructor is deleted when we create our own constructor (but works in the similar manner)
 
 	// Parameterized constructor
 	Student(int rollNumber) {
