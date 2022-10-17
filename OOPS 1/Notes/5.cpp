@@ -12,7 +12,8 @@ Answer- Only 2
 
 Answer- Only 1
 
-3) Consider following piece of code:
+3) // Copy Constructor 
+Consider following piece of code:
 class Pair{
   public :
   int first;
@@ -30,7 +31,7 @@ Which of the following statement is feasible ?
 3. Both 1 and 2 are correct.
 4. None of the above
 
-Answer- 2
+Answer- 2		// p1 is dynamic and p2 is static, to copy values 2 is the only feasible way
 	
 4) Consider following piece of code:
 #include<iostream>
