@@ -31,6 +31,7 @@ int findNode(Node *head, int n)
     return -1;
 }
 
+/*
 #include <iostream>
 using namespace std;
 
@@ -81,3 +82,4 @@ int main()
 		cout << findNode(head, val) << endl;
 	}
 }
+*/
