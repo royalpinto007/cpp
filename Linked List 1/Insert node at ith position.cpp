@@ -1,3 +1,4 @@
+/*
 Node* takeInput_Better() {
 	int data;
 	cin >> data;
@@ -20,7 +21,7 @@ Node* takeInput_Better() {
 	}
 	return head;
 }
-
+*/
 Node* insertNode(Node *head, int i, int data) {
 	Node *newNode = new Node(data);
 	int count = 0;
@@ -44,6 +45,7 @@ Node* insertNode(Node *head, int i, int data) {
 	return head;
 }
 
+/*
 void print(Node *head) {
 	while(head != NULL) {
 		cout << head -> data << " ";
@@ -74,3 +76,4 @@ int main() {
 	head = insertNode(head, i, data);
 	print(head);
 }
+*/
