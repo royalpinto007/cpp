@@ -1,18 +1,3 @@
-class Node {
-	public :
-	int data;
-	Node *next;
-
-	Node(int data) {
-		this -> data = data;
-		next = NULL;
-	}
-};
-
-#include <iostream>
-using namespace std;
-#include "Node.cpp"
-
 Node* takeInput_Better() {
 	int data;
 	cin >> data;
@@ -35,7 +20,6 @@ Node* takeInput_Better() {
 	}
 	return head;
 }
-
 
 Node* insertNode(Node *head, int i, int data) {
 	Node *newNode = new Node(data);
@@ -67,14 +51,26 @@ void print(Node *head) {
 	}
 }
 
-int main() {
+class Node {
+	public :
+	int data;
+	Node *next;
 
+	Node(int data) {
+		this -> data = data;
+		next = NULL;
+	}
+};
+
+#include <iostream>
+using namespace std;
+#include "Node.cpp"
+
+int main() {
 	Node *head = takeInput_Better();
 	print(head);
 	int i, data;
 	cin >> i >> data;
 	head = insertNode(head, i, data);
 	print(head);
-
 }
-
