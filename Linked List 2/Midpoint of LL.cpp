@@ -15,6 +15,31 @@ Node *midPoint(Node *head)
     return slow; 
 }
 
+// #include <cmath>
+// int length(Node*head)
+// {
+//      int count=1;
+//     while(head)
+//     {
+//         count++;
+//         head=head->next;
+//     }
+//     return count;
+// }
+// Node *midPoint(Node *head)
+// {
+//      if(head==NULL)	 return head;
+//     // Write your code here
+//    int x=ceil(length(head)/2);
+    
+//     for(int i=1;i<x;i++)
+//     {
+//         head=head->next;
+//     }
+  
+//     return head;
+// }
+
 /*
 #include <iostream>
 
