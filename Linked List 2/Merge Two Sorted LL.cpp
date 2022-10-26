@@ -7,11 +7,12 @@ Sample Output 1 :
 2 3 5 6 8 9 12 
 */
 
-Node* mergeTwoSortedLinkedLists(Node *head1, Node *head2) 
-{
+Node* mergeTwoSortedLinkedLists(Node *head1, Node *head2) {
+    
     Node *p=NULL,*q=NULL;
-    if(head1==NULL)	 return head2;
-    if(head2==NULL)  return head1;
+    if(head1==NULL)	return head2;
+    if(head2==NULL)	return head1;
+    
     if(head1->data<head2->data)
     {
         p=head1;
@@ -24,6 +25,7 @@ Node* mergeTwoSortedLinkedLists(Node *head1, Node *head2)
         q=head2;
         head2=head2->next;  
     }
+	
     while(head1&&head2)
     {
        if(head1->data<head2->data)
@@ -33,7 +35,7 @@ Node* mergeTwoSortedLinkedLists(Node *head1, Node *head2)
            head1=head1->next;
            q->next=NULL;
        }
-    else if(head1->data>=head2->data)
+       else if(head1->data>=head2->data)
        {
            q->next=head2;
            q=head2;
@@ -41,6 +43,7 @@ Node* mergeTwoSortedLinkedLists(Node *head1, Node *head2)
            q->next=NULL;
        }
     }
+	
     if(head1)
         q->next=head1;
     if(head2)
