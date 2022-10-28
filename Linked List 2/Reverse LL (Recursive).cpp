@@ -1,16 +1,28 @@
-Node *reverseLinkedListRec(Node *head)
-{
-    Node *p=head,*q=NULL,*r=NULL;
-    while(p)
-    {
-        r=q;
-        q=p;
-        p=p->next;
-        q->next=r;
-    }
+Node *reverseLinkedListRec(Node *head) { 
     
-    return q;
+    if (head == NULL || head->next == NULL) { 
+        return head; 
+    } 
+    
+    Node *smallhead = reverseLinkedListRec(head->next); 
+    head->next->next = head; 
+    head->next = NULL; 
+    return smallhead; 
 }
+
+// Node *reverseLinkedListRec(Node *head)
+// {
+//     Node *p=head,*q=NULL,*r=NULL;
+//     while(p)
+//     {
+//         r=q;
+//         q=p;
+//         p=p->next;
+//         q->next=r;
+//     }
+    
+//     return q;
+// }
 
 /*
 #include <iostream>
