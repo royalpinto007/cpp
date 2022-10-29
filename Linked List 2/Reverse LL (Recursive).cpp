@@ -1,13 +1,17 @@
+// 2nd solution is easy to understand, LOL
+
 Node *reverseLinkedListRec(Node *head) { 
-    
+    // 1 2 3 4 5 NULL
     if (head == NULL || head->next == NULL) { 
         return head; 
     } 
-    
+    // 5 4 3 2 NULL
+    // smallhead=5 ka address
     Node *smallhead = reverseLinkedListRec(head->next); 
-    head->next->next = head; 
-    head->next = NULL; 
-    return smallhead; 
+    
+    head->next->next = head; 	// https://stackoverflow.com/questions/37848186/how-to-understand-head-next-next-head-for-reverse-single-list-by-recursion
+    head->next = NULL; 		// fixing 1's address to be NULL (5 4 3 2 1 NULL)
+    return smallhead; 		// return 5's address to print the whole LL
 }
 
 // Node* reverseLL(Node *head) {
