@@ -2,16 +2,17 @@ Node *swapNodes(Node *head, int i, int j)
 {
     Node *p=head,*q=head;
     
+    // to traverse upto i
     for(int index=0;index<i;index++)
     {
         p=p->next;
     }
-    
+    // to traverse upto j
     for(int index=0;index<j;index++)
     {
         q=q->next;
     }
-    
+    // swap nodes
     int x=p->data;
     p->data=q->data;
     q->data=x;
