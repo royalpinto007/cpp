@@ -4,23 +4,23 @@
 
 class Pair {
 	public :
-		
-			Node *head;
-			Node *tail;
+		Node *head;
+		Node *tail;
 };
 
 Pair reverseLL_2(Node *head) {
+	// 1 2 3 4 NULL
 	if(head == NULL || head -> next == NULL) {
 		Pair ans;
 		ans.head = head;
 		ans.tail = head;
 		return ans;
 	}
+	// 4 3 2  NULL
+	Pair smallAns = reverseLL_2(head -> next);  // smallAns head = &4, smallAns tail = &2
 
-	Pair smallAns = reverseLL_2(head -> next);
-
-	smallAns.tail -> next = head;
-	head -> next = NULL;
+	smallAns.tail -> next = head;	// 4 3 2 1
+	head -> next = NULL;		// 4 3 2 1 NULL
 	Pair ans;
 	ans.head = smallAns.head;
 	ans.tail = head;
