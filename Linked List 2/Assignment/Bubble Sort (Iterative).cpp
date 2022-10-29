@@ -12,16 +12,15 @@ int len(Node *head)
 
 Node *bubbleSort(Node *head)
 {
-    if(head==NULL || head->next==NULL)
-        return head;
+    if(head==NULL || head->next==NULL) return head;
     
-    //node *curr=head;
+   // node *curr=head;
     //node *prev=NULL;
     //node *n=head->next;
     for(int i=0;i<len(head);i++){
         Node *curr=head;
         Node *prev=NULL;
-          // node *n=head->next;
+        // node *n=head->next;
         
         while(curr->next!=NULL) // traverse though LL
         {
@@ -36,16 +35,15 @@ Node *bubbleSort(Node *head)
                     curr->next=t;
                     prev=prev->next;
                 }
-                else  //is it doent exist it would be head node 
+                else  //if it doesnt exist it would be head node 
                 {
                     head= curr->next;
                     curr->next=head->next;
                     head->next=curr;
                     prev=head;
-                }
-                
+                }  
             }
-          else    // else you simply move to next node
+            else    // else you simply move to next node
             {
                 prev=curr;
                 curr=curr->next;
@@ -53,7 +51,7 @@ Node *bubbleSort(Node *head)
         }
     }
   
-  return head;
+    return head;
 }
 
 /*
