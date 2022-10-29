@@ -1,16 +1,31 @@
-Node *reverseLinkedList(Node *head)
-{
-    Node *p=head,*q=NULL,*r=NULL;
-    while(p)
-    {
-        r=q;
-        q=p;
-        p=p->next;
-        q->next=r;
+Node* reverseLinkedList(Node* head) { 
+    Node *currentNode = head;
+    Node *previousNode = NULL; 
+    
+    while (currentNode != NULL) { 
+        Node *nextNode = currentNode->next; 
+        currentNode->next = previousNode; 
+        previousNode = currentNode; 
+        currentNode = nextNode; 
     }
     
-    return q;
+    head = previousNode; 
+    return head; 
 }
+
+// Node *reverseLinkedList(Node *head)
+// {
+//     Node *p=head,*q=NULL,*r=NULL;
+//     while(p)
+//     {
+//         r=q;
+//         q=p;
+//         p=p->next;
+//         q->next=r;
+//     }
+    
+//     return q;
+// }
 
 /*
 #include <iostream>
