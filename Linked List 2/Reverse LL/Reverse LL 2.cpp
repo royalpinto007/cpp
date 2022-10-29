@@ -1,3 +1,5 @@
+// using head and tail to reduce time
+
 // #include <iostream>
 // using namespace std;
 // #include "Node.cpp"
