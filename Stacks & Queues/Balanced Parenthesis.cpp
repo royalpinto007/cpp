@@ -19,7 +19,40 @@ Sample Input 2 :
 Sample Output 2 :
 false
 */
-    
+
+/*
+Pseudo Code 
+
+Function: checkBalanced(exp) {
+Create a Stack s
+For i=0 to i less than length of exp:
+
+if(exp[i] = '(' or exp[i] = '{' or exp[i] = '[') :
+push(exp[i]) on stack s
+
+else if(exp[i] = ')' or exp[i] = '}' or exp[i] = ']') :
+if(stack is empty) :
+return false
+ch = top of stack
+Pop from stack
+
+if(exp[i] = ')' and ch = '(') :
+Do nothing and continue
+
+else if(exp[i] = '}' and ch = '{') :
+Do nothing and continue
+
+else if(exp[i] = ']' and ch = '[') :
+Do nothing and continue
+
+else :
+return false
+
+if(stack is empty) :
+return true
+else :
+return false
+*/ 
 #include <stack> 
 
 bool isBalanced(string expression) { 
