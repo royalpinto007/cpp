@@ -1,6 +1,18 @@
+// For a given Binary Tree of integers, find and return the sum of all the nodes data.
+	
+// Sample Input 1:
+// 2 3 4 6 -1 -1 -1 -1 -1
+// Sample Output 1:
+// 15
+	
+// Sample Input 2:
+// 1 2 3 4 5 6 7 -1 -1 -1 -1 -1 -1 -1 -1
+// Sample Output 2:
+// 28
+	
 int getSum(BinaryTreeNode<int> *root){
 	
-	if (root == NULL)   return 0;
+    if (root == NULL)   return 0;
 
     int sum = 0;
     if (root->left != NULL)
