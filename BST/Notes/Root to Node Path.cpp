@@ -20,7 +20,7 @@ vector<int>* getRootToNodePath(BinaryTreeNode<int>* root, int data) {
 			rightOutput->push_back(root->data);
 			return rightOutput;
 	} 
-  else {
+  	else {
 		return NULL;
 	}
 }
