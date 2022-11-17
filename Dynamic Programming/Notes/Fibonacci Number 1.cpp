@@ -1,14 +1,14 @@
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-int fibo(int n) {
-	if(n <= 1) {
-		return n;
-	}
-	int a = fibo(n - 1);
-	int b = fibo(n - 2);
-	return a + b;
-}
+// int fibo(int n) {
+// 	if(n <= 1) {
+// 		return n;
+// 	}
+// 	int a = fibo(n - 1);
+// 	int b = fibo(n - 2);
+// 	return a + b;
+// }
 
 int fibo_helper(int n, int *ans) {
 	if(n <= 1) {
@@ -41,8 +41,8 @@ int fibo_2(int n) {
 	return fibo_helper(n, ans);
 }
 
-int main() {
-	int n;
-	cin >> n;
-	cout << fibo_2(n) << endl;
-}
+// int main() {
+// 	int n;
+// 	cin >> n;
+// 	cout << fibo_2(n) << endl;
+// }
