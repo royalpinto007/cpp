@@ -59,3 +59,26 @@ int getBiggestPieceSize(vector<vector<int>> &cake, int n)
     }
     return ans;
 }
+
+/*
+#include <iostream>
+#include <vector>
+using namespace std;
+
+#include "solution.h"
+
+int main() {
+    int n;
+    cin >> n;
+
+    vector<vector<int>> cake(n, vector<int>(n));
+
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            cin >> cake[i][j];
+        }
+    }
+
+    cout << getBiggestPieceSize(cake, n);
+}
+*/
